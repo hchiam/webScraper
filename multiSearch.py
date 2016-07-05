@@ -1,7 +1,6 @@
 # Inspiration source:  https://automatetheboringstuff.com/chapter11/
 
 import webbrowser
-from bs4 import BeautifulSoup
 
 # examples of urls for searching "Web search engine":
 # https://www.google.ca/?gws_rd=ssl#q=Web+search+engine
