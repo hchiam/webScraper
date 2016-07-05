@@ -22,6 +22,7 @@ fullerSearch = raw_input("Enter 'y' to do fuller search:\t")
 
 # check if user said "yes"
 if fullerSearch in yes:
+    
     # double-check (for usability)
     fullerSearch = raw_input("Are you sure?:\t")
 
@@ -38,6 +39,7 @@ fullerSearch = fullerSearch.lower()
 
 # check if doing fuller search
 if fullerSearch in yes:
+    
     # search in Wiktionary
     searchWiktionary = searchString.replace(" ","_")
     webbrowser.open('https://en.wiktionary.org/wiki/' + searchWiktionary)
