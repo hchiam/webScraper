@@ -1,4 +1,5 @@
 # Inspiration source:  https://automatetheboringstuff.com/chapter11/
+# Note:  This code is for practice purposes.  Please do not abuse the terms of service of the websites.
 
 import webbrowser
 
